@@ -6,7 +6,7 @@ test("can get school", () => {
     expect(employeeInstance.school).toBe(testSchool);
 });
 
-test("Testing role.", () => {
+test("can get role.", () => {
     const returnValue = "Intern";
     const employeeInstance = new Intern("Hambone", 8, "HamboneFakenamington@gmail.com", "Something University");
     expect(employeeInstance.getRole()).toBe(returnValue);

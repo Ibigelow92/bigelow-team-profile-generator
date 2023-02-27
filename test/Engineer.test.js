@@ -1,4 +1,5 @@
 const Engineer = require("../lib/Engineer");
+//Do I need to require jest? 
 
 test("can create github", () => {
     const testGithub = "HamboneFakenamington92";
@@ -6,7 +7,7 @@ test("can create github", () => {
     expect(employeeInstance.github).toBe(testGithub);
 });
 
-test("can return github", () => {
+test("can get github", () => {
     const testGithub = "HamboneFakenamington92";
     const employeeInstance = new Engineer("Hambone", 8, "HamboneFakenamington@gmail.com", testGithub);
     expect(employeeInstance.getGithub()).toBe(testGithub);

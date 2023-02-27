@@ -23,8 +23,6 @@ test("Can set email", () => {
     expect(employeeInstance.email).toBe(email);
 })
 
-
-
 test("can get name", () => {
     const testName = "Hambone";
     const employeeInstance = new Employee(testName);
