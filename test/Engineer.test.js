@@ -1,5 +1,4 @@
 const Engineer = require("../lib/Engineer");
-//Do I need to require jest? 
 
 test("can create github", () => {
     const testGithub = "HamboneFakenamington92";
